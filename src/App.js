@@ -8,7 +8,6 @@ import Header from "./components/header/header.component";
 import SignInandSignUpPage from "./pages/signin-and-signup/signin-and-signup.component";
 import {auth ,createUserProfileDocument} from "./firebase/firebase.utils";
 import {setCurrentUser} from "./redux/user/user.actions";
-import CartIcon from "./components/cart-icon/cart-icon.components";
 class App extends React.Component {
 
   unSubscribeFromAuth = null;
